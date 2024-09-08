@@ -55,6 +55,7 @@
     z-index: 1;
     display: flex;
     justify-content: space-between;
+    transition: backgroundcolor 0.5s ease;
 }
 
 .header2 p{

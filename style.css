@@ -213,12 +213,12 @@
     padding-right: 8rem;
    
 }
-.section1 .logo2{
-    width: 10rem;
-    height: 10rem;
+.section1 .logo2 img{
+ border-radius: 50%;
     grid-column: 1 / 2;
     
 }
+
 
 .section-text{
     display: flex;
@@ -257,30 +257,46 @@
     
   }
   #section2{
-    padding: 4rem 7rem 2rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    }
    #section2 #text1{
-    position: absolute;
-    left: 50%;
-    margin-top: 4rem;
-    margin-bottom: 8rem;
+  display: flex;
+  justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
    }
-#section2 #text2{
-   display: flex;
-   justify-content: center;
-}
+   #section2 #text1 p{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
 #cuisine{
     display: flex;
+    padding: 2px 5rem 5rem
 
 }
+#cuisine img{
+    border-radius: 15px;
+}
+#cuisine img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
 #cuisine #text2{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     
-    align-items: center;
+   
     padding: 3rem;
 }
 #cuisine #text2 p{
     text-align: justify;
 }
+#cuisine #text2 h1{
+    text-align: left;
+}
+

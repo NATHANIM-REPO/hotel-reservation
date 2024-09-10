@@ -141,8 +141,8 @@ html{
 .slide img{
     margin-top: 2px;
     vertical-align: middle;
-    width: 1000px;
-    height: 25rem;
+    width:100%;
+    height: 35rem;
     
 }
 .slideshow-container{
@@ -309,13 +309,16 @@ html{
 .restaurant{
     display: flex;
     gap: 4rem;
-    margin: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 6rem;
 }
 .restaurant .part1{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    
+    width: 25rem;    
     
 }
 .restaurant .part1 div{
@@ -329,10 +332,16 @@ html{
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.restaurant .part1 img{
+    height: 15rem;
+    
+}
+
 .restaurant .part2{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 25rem;   
     
 }
 .restaurant .part2 div{
@@ -346,14 +355,16 @@ html{
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.restaurant .part2 img{
+    height: 15rem;
+}
 
 
 .restaurant .part3{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    
+    width: 25rem;   
 }
 .restaurant .part3 div{
     width: 5rem;
@@ -365,6 +376,9 @@ html{
 .restaurant .part3 h3{
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.restaurant .part3 img{
+    height: 15rem;
 }
 #section3{
     display: flex;
@@ -456,6 +470,4 @@ html{
     color: white;
    }
 
-   @media only screen and (max-width: 768px) {
-    body {
-      font-size: 14px;
+   

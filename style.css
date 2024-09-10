@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: #f9f9f9;
+html{
+    scroll-behavior: smooth;
 }
 .container{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    scroll-behavior: smooth;
+    
     height: 170vh;
 }
 .header1{
@@ -39,6 +39,9 @@ body{
     color: rgb(81, 72, 72);
     transition: 0.5s;
     font-size: 0.8rem;
+}
+.headertext p a{
+    color: black;
 }
 .headertext p:hover{
     background-color: rgb(193, 193, 193);
@@ -207,7 +210,7 @@ body{
     animation-name: fade;
     animation-duration: 1.5s;
 }
-.section1{
+#section1{
     display: grid;
     grid-template-columns: 30% 70%; 
     margin-top: 3rem;
@@ -216,7 +219,7 @@ body{
     padding-right: 8rem;
    
 }
-.section1 .logo2 img{
+#section1 .logo2 img{
  border-radius: 50%;
     grid-column: 1 / 2;
     
@@ -363,36 +366,36 @@ body{
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.section3{
+#section3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2px 7rem 5rem
    }
-   .section3 .text{
+   #section3 .text{
     margin-bottom: 5rem;
    }
    
-   .section3 .text p{
+   #section3 .text p{
     text-align: center;
     font-size: 15px;
     display: flex;
     justify-content: center;
    }
-   .section3 .text h3{
+   #section3 .text h3{
     padding: 1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
     font-size: 30px;
    }
-   .section3 .part4{
+   #section3 .part4{
     display: flex;
     
     gap: 2rem;
 
    }
-   .section3 #text2{
+   #section3 #text2{
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -401,25 +404,21 @@ body{
     justify-content: center;
 
    }
-   .section3 .part4 img{
+   #section3 .part4 img{
     border-radius: 15px;
     width: 40rem;
     height: auto;
    }
-   .section3 .part4 img:hover{
-    transform: scale(1.2);
-    transition: 0.5s ease;
-   }
-   .section3 .part4 p{
+   #section3 .part4 p{
     text-align: justify;
     font-size: 18px;
    }
-   .section3 #text2 h1{
+   #section3 #text2 h1{
     text-align: justify;
     font-size: 28px;
    }
 
-   .section4{
+   #section4{
     background-color: #272424;
     display: flex;
     padding: 4rem 6rem;
@@ -456,3 +455,7 @@ body{
    .texts a{
     color: white;
    }
+
+   @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px;

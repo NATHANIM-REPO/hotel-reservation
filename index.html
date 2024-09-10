@@ -17,7 +17,7 @@
             <p>Location</p>
             <p>Dining</p>
              <p>Event</p>
-             <p>About us</p>
+             <p id="about-us">About us</p>
         </div>
         </header>
 
@@ -41,6 +41,40 @@
     </span>
         <button id="reserve">Reserve <span id="dropdown"><img src="contents\arrow-down-drop-circle.png"></span></button>
         </header>
+
+        <section id="about-us">
+            <div class="slideshow-container">
+            <div class="slide fade">
+                <div class="number">01 / 03</div>
+                <img src="contents\sheraton-pic.jfif">
+                
+            </div>
+
+            <div class="slide fade">
+                <div class="number">02 / 03</div>
+                <img src="contents\sheraton-pic2.jfif">
+                
+            </div>
+    
+            <div class="slide fade">
+                <div class="number">03 / 03</div>
+                <img src="contents\sheraton-pic3.jfif">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮ Previous</a>
+            <a class="next" onclick="plusSlides(1)">Next ❯ </a>
+            </div>
+            <br>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                
+            </div>
+            
+   
+
+    
+        </section>
     </div>
     <script src="index.js"></script>
 </body>

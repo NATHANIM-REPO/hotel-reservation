@@ -236,5 +236,11 @@
     font-size: 16px;
     font-weight: normal;
     text-align: justify;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    white-space: normal;
+  
 }
 

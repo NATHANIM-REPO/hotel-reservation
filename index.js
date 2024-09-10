@@ -14,7 +14,7 @@ window.addEventListener("scroll", function() {
       icon.style.display = "none"
       
     } else {
-      header.style.backgroundColor = "#514848";  
+      header.style.backgroundColor = "black";  
       text.style.color = "white"
       button.style.backgroundColor = "white"
       button.style.color = "black"  
@@ -55,3 +55,18 @@ function plusSlides(n){
     slides[slideIndex-1].style.display = 'block';
     dots[slideIndex-1].className += ' active';
  }
+
+ function toggleText() {
+  const textElement = document.getElementById("section-h5");
+  const button = document.getElementById("seeMoreBtn");
+  
+  if (button.innerText === "See More") {
+    textElement.style.display = "block"; 
+    textElement.style.webkitLineClamp = "unset"; 
+    button.innerText = "See Less";
+  } else {
+    textElement.style.display = "-webkit-box";
+    textElement.style.webkitLineClamp = "4"; 
+    button.innerText = "See More";
+  }
+}

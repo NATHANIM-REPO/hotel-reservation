@@ -44,8 +44,8 @@
 }
 
 #header2{
-    background-color: #514848;
-    height: 8rem;
+    background-color: #000000;
+    height: 6rem;
     width: 100%;
     padding: 1rem;
     display: flex;
@@ -148,7 +148,7 @@
 .prev,.next{
     cursor: pointer;
     position: absolute;
-    top: 90%;
+    top: 80%;
     width: auto;
     padding: 8px;
     margin-top: -22px;
@@ -178,8 +178,8 @@
  font-size: 12px;
  padding: 8px 12px;
  position: absolute;
- top: 90%;
- left: 47%;
+ top: 80%;
+ left: 47.5%;
 }
 
 .dot{
@@ -207,12 +207,16 @@
 .section1{
     display: grid;
     grid-template-columns: 30% 70%; 
+    margin-top: 3rem;
+    align-items: center;
+    padding: 2rem;
    
 }
 .section1 .logo2{
-    width: 7rem;
-    height: 7rem;
+    width: 10rem;
+    height: 10rem;
     grid-column: 1 / 2;
+    
 }
 
 .section-text{
@@ -243,4 +247,12 @@
     white-space: normal;
   
 }
+#seeMoreBtn {
+    color: rgb(0, 0, 0);
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: white;
+    
+  }
 

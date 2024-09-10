@@ -418,3 +418,35 @@ body{
     text-align: justify;
     font-size: 28px;
    }
+
+   .section4{
+    background-color: #272424;
+    display: flex;
+    padding: 4rem 6rem;
+    flex-direction: row;
+
+   }
+   .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem;
+   }
+   .texts .text1{
+    color: rgb(107, 103, 103);
+
+   }
+   .texts h1{
+   color: white;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   }
+   .texts .text2{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+   }
+   .texts .line{
+    border: solid 2px white;
+   }
+   .texts

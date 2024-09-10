@@ -449,4 +449,10 @@ body{
    .texts .line{
     border: solid 2px white;
    }
-   .texts
+   .texts .text3{
+    color: white;
+    padding-top: 3rem ;
+   }
+   .texts a{
+    color: white;
+   }

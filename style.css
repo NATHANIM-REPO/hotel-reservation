@@ -367,7 +367,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2px 5rem 5rem
+    padding: 2px 7rem 5rem
    }
    .section3 .text{
     margin-bottom: 5rem;
@@ -395,9 +395,9 @@ body{
    .section3 #text2{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
     padding: 3rem;
-    align-items: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
     justify-content: center;
 
    }
@@ -412,7 +412,9 @@ body{
    }
    .section3 .part4 p{
     text-align: justify;
+    font-size: 18px;
    }
    .section3 #text2 h1{
     text-align: justify;
+    font-size: 28px;
    }

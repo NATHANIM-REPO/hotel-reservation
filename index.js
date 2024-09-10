@@ -70,3 +70,4 @@ function plusSlides(n){
     button.innerText = "See More";
   }
 }
+

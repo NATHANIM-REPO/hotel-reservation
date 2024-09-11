@@ -58,7 +58,7 @@ html{
 
   }
   .sidebar p a{
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
   }
@@ -630,6 +630,9 @@ html{
         grid-row: 2 / 3;
         gap: 3rem;
         
+    }
+    .sidebar p a{
+        font-size: 18px;
     }
 }
    

@@ -604,7 +604,31 @@ html{
     #header2 p{
         font-size: 1rem;
     }
-    #cuisine #text2/{
+    #cuisine {
+     padding-bottom: 3rem;
+    }
+    #section1{
+        display: grid;
+        grid-template-rows: 20% 80%;
+        gap: 2rem;
+        height: 80vh;
+        grid-template-columns: none;
+        justify-content: center;
+        padding-bottom: none;
+    }
+    #section1 .logo2 img{
+        grid-row: 1 / 2;
+        position: absolute;
+        left: 22%;
+        width: 20rem;
+        height: auto;
+        
+       
+      
+    }
+    .section-text{
+        grid-row: 2 / 3;
+        gap: 3rem;
         
     }
 }

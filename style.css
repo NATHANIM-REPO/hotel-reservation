@@ -120,6 +120,10 @@ html{
     transition:  0.5s ease;
 
 }
+#reserve a{
+    text-decoration: none;
+    color: black;
+}
 #reserve span img{
     width: 1rem;
     height: 1rem;

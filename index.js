@@ -3,6 +3,7 @@ window.addEventListener("scroll", function() {
     const text = document.getElementById('headertext2');
     const button = document.getElementById('reserve')
     const icon = document.getElementById('dropdown')
+    const link = this.document.getElementById('reserve-a')
 
     if (window.scrollY > 50) {
       header.style.backgroundColor = "#ffffff";  
@@ -12,6 +13,7 @@ window.addEventListener("scroll", function() {
       button.style.alignItems = 'center'
       button.style.justifyContent = "center"
       icon.style.display = "none"
+      link.style.color = 'white'
       
     } else {
       header.style.backgroundColor = "black";  
@@ -21,6 +23,7 @@ window.addEventListener("scroll", function() {
       button.style.alignItems = 'center'
       button.style.justifyContent = "center"
       icon.style.display = 'inline'
+      link.style.color = 'black'
     }
   });
 

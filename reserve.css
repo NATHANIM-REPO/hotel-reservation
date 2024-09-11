@@ -6,17 +6,26 @@
 html{
     scroll-behavior: smooth;
 }
-body{
+.main{
     background-color: rgb(33, 45, 30);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .container{
     background-color: rgb(247, 252, 255);
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    border-radius: 15px;
+    width: 450px;
+    height: auto;
+    
+}
+.section1{
+    padding: 2rem;
 }
 #text1{
     font-size: 20px;
@@ -42,6 +51,14 @@ body{
     border-bottom: solid 3px black;
     border-radius: 20px;
     padding: 0.5rem;
+    
+}
+.part2{
     display: flex;
     justify-content: center;
+}
+.section3{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
 }

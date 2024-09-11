@@ -528,6 +528,25 @@ html{
     left: 0;
     width: 16rem;
  }
- #cuisine #text2
+ #cuisine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ #cuisine #text2{
+    padding: 2rem;
+ }
+ #section3 .part4{
+    display: block;
+ }
+ #section3 #text2 {
+    padding: 1rem;
+ }
+ #section4{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
 }
    

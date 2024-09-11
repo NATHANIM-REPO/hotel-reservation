@@ -15,7 +15,24 @@ window.addEventListener("scroll", function() {
       icon.style.display = "none"
       link.style.color = 'white'
       
-    } else {
+    } 
+    else if (window.matchMedia("(max-width: 510px)").matches) {
+      if(window.scrollY > 50){
+        button.style.position = 'fixed'
+        button.style.bottom = '20px'
+        button.style.left = '0'
+        button.style.width = '100%'
+      }
+      else if (this.window < 50){
+        butt
+      }
+      else{
+      button.style.display = 'inline'
+      }
+      
+    }
+    
+    else {
       header.style.backgroundColor = "black";  
       text.style.color = "white"
       button.style.backgroundColor = "white"
@@ -24,6 +41,7 @@ window.addEventListener("scroll", function() {
       button.style.justifyContent = "center"
       icon.style.display = 'inline'
       link.style.color = 'black'
+      
     }
   });
 
@@ -82,3 +100,4 @@ function toggleSidebar() {
     sidebar.style.right = '0px'; 
   }
 }
+

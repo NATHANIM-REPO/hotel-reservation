@@ -109,7 +109,7 @@ window.onscroll = function() {
     scrollBtn.style.right = "5px"
     scrollBtn.style.width = "20px"
     scrollBtn.style.bottom = "none"
-    scrollBtn.style.left = "none"
+    
   }
 };
 

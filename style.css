@@ -694,4 +694,19 @@ html{
     width: 100px; 
    }
 }
+@media (max-width: 430px){
+    #header2 p{
+        font-size: 0.7rem;
+    }
+    #section1 .logo2 img{
+        left: 19%;
+        width: 15rem;
+    }
+    #section{
+        padding: 0;
+        gap: 0;
+        top: 0;
+    }
+    
+}
    

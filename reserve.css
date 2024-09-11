@@ -62,3 +62,32 @@ html{
     gap: 1rem;
     padding: 2rem;
 }
+@media (max-width: 450px){
+    .input1{
+        font-size: 10px;
+        display: inline;
+    }
+    .section1{
+        display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    #inputs{
+        display: flex;
+    }
+    .container{
+        width: 350px;
+    }
+    .section3{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .section3 img{
+        display: none;
+
+    }
+}

@@ -228,7 +228,7 @@ html{
     margin-top: 3rem;
     align-items: center;
     padding: 6rem;
-    padding-right: 8rem;
+    
    
 }
 #section1 .logo2 img{
@@ -499,5 +499,25 @@ html{
    .texts a{
     color: white;
    }
-
+@media only screen and (max-width: 1000px) {
+    .restaurant{
+        display: flex;
+        flex-direction: column;
+    }
+    #cuisine{
+        padding: 1rem;
+    }
+    #section1{
+        padding: 1rem;
+    }
+    #section3{
+        padding: 2rem;
+    }
+    #section4{
+        padding: 3rem;
+    }
+}
+@media only screen and (max-width: 800px){
+    
+}
    

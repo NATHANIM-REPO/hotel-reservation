@@ -517,7 +517,17 @@ html{
         padding: 3rem;
     }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 780px){
+ #reserve{
+    font-size: 18px;
+ }
+ #section1 .logo2 img{
+    padding: 0;
     
+    position: absolute;
+    left: 0;
+    width: 16rem;
+ }
+ #cuisine #text2
 }
    

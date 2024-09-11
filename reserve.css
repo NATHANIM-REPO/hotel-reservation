@@ -6,3 +6,42 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: rgb(33, 45, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(247, 252, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#text1{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.input1{
+  background-color: transparent;
+  border-bottom: solid 3px black;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+.section2 .text1{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#options{
+    border-bottom: solid 3px black;
+    border-radius: 20px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}

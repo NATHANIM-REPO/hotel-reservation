@@ -8,8 +8,8 @@ html{
 }
 .container{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    height: 170vh;
+    overflow: none;
+   
 }
 
 .header1{
@@ -59,7 +59,7 @@ html{
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     transition: background-color 0.5s ease;

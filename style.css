@@ -638,8 +638,8 @@ html{
 }
 @media (max-width: 510px){
     .number{
-       top: 90%;
-       left: 45%;
+       top: 87%;
+       left: 44%;
     }
     .next{
         right: 0;
@@ -650,7 +650,7 @@ html{
         top: 50%;
     }
     #header2 p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     .bigdot{
         height: 0.6rem;
@@ -662,8 +662,36 @@ html{
     .icons #reviews{
         font-size: 0.8rem;
     }
-   
+   #reserve{
+    font-size: 14px;
+   }
+   #header2{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+   }
+   #section1 .logo2 img{
+    position: absolute;
+    left: 18%;
+   }
+   #cuisine img{
+    width: 20rem;
+   }
+   #section3 .part4 img {
+    width: 25rem;
+   }
+   #section2{
+    padding: 1rem;
+   }
+   #cuisine{
+    padding: 0;
+   }
+   #reserve{
+    position: relative; 
     
-    
+    right: 5px; 
+    width: 100px; 
+   }
 }
    

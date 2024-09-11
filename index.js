@@ -15,24 +15,7 @@ window.addEventListener("scroll", function() {
       icon.style.display = "none"
       link.style.color = 'white'
       
-    } 
-    else if (window.matchMedia("(max-width: 510px)").matches) {
-      if(window.scrollY > 50){
-        button.style.position = 'fixed'
-        button.style.bottom = '20px'
-        button.style.left = '0'
-        button.style.width = '100%'
-      }
-      else if (this.window < 50){
-        butt
-      }
-      else{
-      button.style.display = 'inline'
-      }
-      
-    }
-    
-    else {
+    } else {
       header.style.backgroundColor = "black";  
       text.style.color = "white"
       button.style.backgroundColor = "white"
@@ -41,7 +24,6 @@ window.addEventListener("scroll", function() {
       button.style.justifyContent = "center"
       icon.style.display = 'inline'
       link.style.color = 'black'
-      
     }
   });
 
@@ -101,3 +83,42 @@ function toggleSidebar() {
   }
 }
 
+if  (window.matchMedia("(max-width: 510px)").matches) {
+var scrollBtn = document.getElementById("reserve");
+
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    scrollBtn.style.display = "block"; 
+    scrollBtn.style.position = 'fixed'
+    scrollBtn.style.width = '100%'
+    scrollBtn.style.bottom = '10px'
+    scrollBtn.style.right = '5px'
+    
+  }
+   else if(document.body.scrollTop < 50 || document.documentElement.scrollTop < 50){
+   
+    
+    
+
+    
+    
+  }
+  else{
+    scrollBtn.style.position = "sticky"
+    scrollBtn.style.right = "5px"
+    scrollBtn.style.width = "20px"
+    scrollBtn.style.bottom = "none"
+    scrollBtn.style.left = "none"
+  }
+};
+
+
+scrollBtn.onclick = function() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+}
+else{
+  console.log('this is a tablet or a desktop')
+}

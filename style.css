@@ -557,6 +557,7 @@ html{
     #section4{
         padding: 3rem;
     }
+    
 }
 @media (max-width: 780px){
  #reserve{
@@ -706,6 +707,12 @@ html{
         padding: 0;
         gap: 0;
         top: 0;
+    }
+    #cuisine #text2 {
+        justify-content: center;
+    }
+    .section-text{
+        justify-content: center;
     }
     
 }

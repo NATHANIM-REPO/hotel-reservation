@@ -105,15 +105,20 @@ html{
     transition: background-color 0.5s ease;
 }
 
-#header2 p{
+#header2 #headertext2{
     font-weight: 600;
     font-size: 1.5rem;
     font-style: italic;
-    color: #ffffff;
+    color: white;
     transition: 0.5s;
 }
 #header2 p:hover{
     transform: scale(1.05);
+}
+#header2 #headertext2 a{
+    color: white;
+    text-decoration: none;
+    
 }
 .icons{
     display: flex;

@@ -99,10 +99,11 @@ html{
         width: 350px;
     }
     .section3{
-        padding: 1rem;
+        
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        padding: none;
     }
     .section3 img{
         display: none;

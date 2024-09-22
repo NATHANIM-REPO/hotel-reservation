@@ -57,10 +57,28 @@ html{
     display: flex;
     justify-content: center;
 }
+#calender{
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+}
 .section3{
     display: flex;
     gap: 1rem;
     padding: 2rem;
+    flex-direction: column;
+}
+#submitBtn{
+    font-size: 28px;
+    background-color: rgb(181, 223, 139);
+    padding: 15px;
+    border-radius: 30px;
+    margin: 2rem;
+    transition: all ease-in-out 0.3s;
+    
+}
+#submitBtn:hover{
+    transform: scale(1.1);
 }
 @media (max-width: 450px){
     .input1{

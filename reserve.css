@@ -96,14 +96,14 @@ html{
         display: flex;
     }
     .container{
-        width: 350px;
+        width: 100%;
     }
     .section3{
         
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        padding: none;
+        padding: 2rem;
     }
     .section3 img{
         display: none;

@@ -545,6 +545,9 @@ html{
    .texts a{
     color: white;
    }
+   .map{
+    overflow: hidden;
+   }
 @media (max-width: 1000px) {
     .restaurant{
         display: flex;
@@ -561,6 +564,10 @@ html{
     }
     #section4{
         padding: 3rem;
+    }
+    iframe {
+        width: 100%;
+        height: auto;
     }
     
 }
@@ -700,9 +707,14 @@ html{
     width: 100px; 
    }
 }
-@media (max-width: 430px){
+@media (max-width: 435px){
     #header2 p{
-        font-size: 0.7rem;
+        font-size: 0.3rem;
+    }
+    #headertextA{
+        font-size: 0.8rem;
+        
+       
     }
     #section1 .logo2 img{
         left: 19%;

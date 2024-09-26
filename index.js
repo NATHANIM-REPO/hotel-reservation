@@ -20,8 +20,8 @@ window.addEventListener("scroll", function() {
     } else {
       header.style.backgroundColor = "black";  
       text.style.color = "white"
-      button.style.backgroundColor = "white"
-      button.style.color = "black"  
+      button.style.backgroundColor = "black"
+      button.style.color = "white"  
       button.style.alignItems = 'center'
       button.style.justifyContent = "center"
       icon.style.display = 'inline'

@@ -115,7 +115,7 @@ html{
 #header2 p:hover{
     transform: scale(1.05);
 }
-#header2 #headertext2 a{
+#header2 #headertextA{
     color: white;
     text-decoration: none;
     
